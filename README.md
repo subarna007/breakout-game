@@ -1,7 +1,18 @@
-### Bounce ball Game
- This project shows how to code a bouncing ball game with javascript.  created a project that you can play breakout game with javascript❗️
+# Breakout Game
 
-# Screenshot
-Here we have project screenshot :
+The classic brick-breaker game drawn on an HTML canvas with plain JavaScript.
 
-![screenshot](screenshot.jpg)
+## Features
+
+- Paddle follows the mouse
+- Ball bounces off walls, paddle and bricks
+- Score counter
+- "You Win" when every brick is broken; the game restarts when the ball is missed
+
+## Run it
+
+No build step. Open `index.html` in a browser, or serve the folder with any static server, for example `python -m http.server`.
+
+## Screenshots
+
+![Breakout Game screenshot](screenshot.jpg)

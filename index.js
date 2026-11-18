@@ -37,7 +37,7 @@ document.addEventListener("mousemove", mouseMoveHandler, false);
 
 // Move paddle with mouse
 function mouseMoveHandler(e) {
-    var relativeX = e.clientX - canvas.offsetLeft;
+    var relativeX = e.clientX - canvas.getBoundingClientRect().left;
     if (relativeX > 0 && relativeX < canvas.width) {
         paddleX = relativeX - paddleWidth / 2;
     }
